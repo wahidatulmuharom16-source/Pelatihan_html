@@ -1,15 +1,16 @@
 body {
   background-color: #8B008B;
   color: #191970;
+  font-family: Arial, sans-serif;
 }
 
 .kartu-foto.profil {
-  width: 30px;
+  width: 350px;              /* diperbesar biar muat teks */
   margin: 50px auto;
   padding: 20px;
   background-color: cyan;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   text-align: center;
 }
 
@@ -17,4 +18,23 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.kartu-foto.profil a {
+  display: block;
+  margin-top: 10px;
+  color: #191970;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.kartu-foto.profil button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #191970;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
